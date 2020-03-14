@@ -1,0 +1,18 @@
+{
+    "name": "omarxcoder/horus-wp-plugin-boilerplate",
+    "description": "a wordpress plugin boilerplate",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Omar Ali",
+            "email": "business@OmarAli.dev"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Horus\\": "plugin/"
+        }
+    }
+}
